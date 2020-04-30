@@ -4,5 +4,25 @@ body {
     background: linear-gradient(to right, #333399, #ff00cc);
     font-family: "Segoe UI";
     color: #fff;
+}
 
+.container {
+    border: 1px solid #f953c6;
+    width: 500px;
+    height: 600px;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 5px 6px 10px -6px rgba(61, 7, 71, 0.6);
+    text-align: center;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.container::-webkit-scrollbar {
+    width: 6px;
+    background-color: transparent;
+}
+
+.container::-webkit-scrollbar-thumb {
+    background-color: #333399;
 }
