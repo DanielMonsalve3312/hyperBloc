@@ -18,6 +18,16 @@ body {
     overflow-y: auto;
 }
 
+.header {
+    background-color: #333399;
+    top: 0;
+    padding: 20px 60px;
+}
+
+h2 {
+    margin: 0;
+}
+
 .container::-webkit-scrollbar {
     width: 6px;
     background-color: transparent;
